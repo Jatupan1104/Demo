@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/myhome.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,10 +32,7 @@ class MyApp extends StatelessWidget {
                 ]),
               ),
               body: const TabBarView(children: [
-                Icon(
-                  Icons.home,
-                  size: 50,
-                ),
+                MyHome(),
                 Icon(
                   Icons.event,
                   size: 50,
